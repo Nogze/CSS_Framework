@@ -1,0 +1,44 @@
+.btn {
+    display: inline-block;
+    color: $black;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@each $key, $color in $theme-colors {
+    .btn-#{$key} {
+        @if $key == "light" or $key == "warning" or $key == "info" {
+            color: $black;
+        }
+        @else {
+            color: $white;
+        }
+        background-color: $color;
+        border-color: $color;
+    }
+    .btn-#{$key}:active:enabled {
+        border: darken($color, 30%) solid 1px !important;
+    }
+    .btn-#{$key}:focus:enabled {
+        border: darken($color, 30%) solid 1px !important;
+    }
+    .btn-#{$key}:disabled {
+        background-color: ligten($color, 50%);
+        border-color: ligten($color, 50%);
+        cursor: default;
+    }
+}
+@each $key, $color in $theme-darker-colors {
+    .btn-#{$key}:hover:enabled {
+        background-color: $color;
+        border-color: $color;
+    }
+}
