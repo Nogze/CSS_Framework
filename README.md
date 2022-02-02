@@ -1,4 +1,4 @@
-The goal of this project is to create a  CSS framework inspired by Boostrap
+The goal of this project is to create a CSS framework inspired by Boostrap
 
 Available features :
 
