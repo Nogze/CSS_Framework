@@ -31,3 +31,23 @@ Images :
 - .img-thumbnail
 - .img-circle
 - .img-rounded
+
+Text :
+- .text-muted / .text-secondary (same thing)
+- .text-primary
+- .text-success
+- .text-danger / .text-error (same thing)
+- .text-warning
+- .text-info
+- .text-light
+- .text-dark
+
+Background :
+- .bg-muted / .bg-secondary (same thing)
+- .bg-primary
+- .bg-success
+- .bg-danger / .text-error (same thing)
+- .bg-warning
+- .bg-info
+- .bg-light
+- .bg-dark
