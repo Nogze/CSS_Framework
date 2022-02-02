@@ -1071,4 +1071,28 @@
   background-color: #212529;
   border-color: #212529;
 }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  border: solid #6c757d 1px;
+  border-radius: 1px;
+  padding: 2px;
+}
+
+.img-rounded {
+  border-radius: 3px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-blur {
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+}
 /*# sourceMappingURL=framework.css.map */
