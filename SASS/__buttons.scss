@@ -24,9 +24,20 @@
         background-color: $color;
         border-color: $color;
     }
+    .btn-#{$key}:active:enabled {
+        border: darken($color, 30%) solid 1px !important;
+    }
+    .btn-#{$key}:focus:enabled {
+        border: darken($color, 30%) solid 1px !important;
+    }
+    .btn-#{$key}:disabled {
+        background-color: ligten($color, 50%);
+        border-color: ligten($color, 50%);
+        cursor: default;
+    }
 }
 @each $key, $color in $theme-darker-colors {
-    .btn-#{$key}:hover {
+    .btn-#{$key}:hover:enabled {
         background-color: $color;
         border-color: $color;
     }
