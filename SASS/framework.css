@@ -23,7 +23,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -15px;
 }
 
 .col-1 {
@@ -876,200 +875,220 @@
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-primary:active:enabled {
-  border: #003166 solid 1px !important;
-}
-
-.btn-primary:focus:enabled {
-  border: #003166 solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-primary:disabled {
-  background-color: ligten(#007bff, 50%);
-  border-color: ligten(#007bff, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-secondary {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-secondary:active:enabled {
-  border: #25282b solid 1px !important;
-}
-
-.btn-secondary:focus:enabled {
-  border: #25282b solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-secondary:disabled {
-  background-color: ligten(#6c757d, 50%);
-  border-color: ligten(#6c757d, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-success {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-success:active:enabled {
-  border: #0a2c12 solid 1px !important;
-}
-
-.btn-success:focus:enabled {
-  border: #0a2c12 solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-success:disabled {
-  background-color: ligten(#28a745, 50%);
-  border-color: ligten(#28a745, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-info {
   color: #000;
   background-color: #17a2b8;
   border-color: #17a2b8;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-info:active:enabled {
-  border: #062a30 solid 1px !important;
-}
-
-.btn-info:focus:enabled {
-  border: #062a30 solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-info:disabled {
-  background-color: ligten(#17a2b8, 50%);
-  border-color: ligten(#17a2b8, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-warning {
   color: #000;
   background-color: #ffc107;
   border-color: #ffc107;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-warning:active:enabled {
-  border: #6d5200 solid 1px !important;
-}
-
-.btn-warning:focus:enabled {
-  border: #6d5200 solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-warning:disabled {
-  background-color: ligten(#ffc107, 50%);
-  border-color: ligten(#ffc107, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-danger {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-danger:active:enabled {
-  border: #66121a solid 1px !important;
-}
-
-.btn-danger:focus:enabled {
-  border: #66121a solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-danger:disabled {
-  background-color: ligten(#dc3545, 50%);
-  border-color: ligten(#dc3545, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-light {
   color: #000;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-light:active:enabled {
-  border: #9fadba solid 1px !important;
-}
-
-.btn-light:focus:enabled {
-  border: #9fadba solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-light:disabled {
-  background-color: ligten(#f8f9fa, 50%);
-  border-color: ligten(#f8f9fa, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-dark {
   color: #fff;
   background-color: #343a40;
   border-color: #343a40;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-dark:active:enabled {
-  border: black solid 1px !important;
-}
-
-.btn-dark:focus:enabled {
-  border: black solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-dark:disabled {
-  background-color: ligten(#343a40, 50%);
-  border-color: ligten(#343a40, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-muted {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-muted:active:enabled {
-  border: #25282b solid 1px !important;
-}
-
-.btn-muted:focus:enabled {
-  border: #25282b solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-muted:disabled {
-  background-color: ligten(#6c757d, 50%);
-  border-color: ligten(#6c757d, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-error {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
+  -webkit-box-shadow: 0 5px #999;
+          box-shadow: 0 5px #999;
 }
 
 .btn-error:active:enabled {
-  border: #66121a solid 1px !important;
-}
-
-.btn-error:focus:enabled {
-  border: #66121a solid 1px !important;
+  -webkit-box-shadow: 0 2px #666;
+          box-shadow: 0 2px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .btn-error:disabled {
-  background-color: ligten(#dc3545, 50%);
-  border-color: ligten(#dc3545, 50%);
-  cursor: default;
+  background: transparent;
+  border: transparent;
+  cursor: not-allowed;
+  color: black;
 }
 
 .btn-primary:hover:enabled {
@@ -1119,12 +1138,12 @@
 
 .img-thumbnail {
   border: solid #6c757d 1px;
-  border-radius: 1px;
+  border-radius: 5%;
   padding: 2px;
 }
 
 .img-rounded {
-  border-radius: 3px;
+  border-radius: 15%;
 }
 
 .img-circle {
@@ -1276,7 +1295,15 @@
   font-size: 20px;
 }
 
-@media (max-width: 576px) {
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
   .visible-sm {
     visibility: visible;
   }
@@ -1300,7 +1327,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .hidden-sm {
     visibility: hidden;
   }

@@ -35,19 +35,22 @@
         }
         background-color: $color;
         border-color: $color;
+        box-shadow: 0 5px #999;
     }
+
     .btn-#{$key}:active:enabled {
-        border: darken($color, 30%) solid 1px !important;
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
     }
-    .btn-#{$key}:focus:enabled {
-        border: darken($color, 30%) solid 1px !important;
-    }
+
     .btn-#{$key}:disabled {
-        background-color: ligten($color, 50%);
-        border-color: ligten($color, 50%);
-        cursor: default;
+        background: transparent;
+        border: transparent;
+        cursor: not-allowed;
+        color: black;
     }
 }
+
 @each $key, $color in $theme-darker-colors {
     .btn-#{$key}:hover:enabled {
         background-color: $color;

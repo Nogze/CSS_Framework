@@ -53,10 +53,12 @@ Background :
 - .bg-dark
 
 Visibility :
+- .visible
 - .visible-sm
 - .visible-md
 - .visible-lg
 - .visible-xl
+- .hidden
 - .hidden-sm
 - .hidden-md
 - .hidden-lg
