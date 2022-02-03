@@ -1215,4 +1215,121 @@
 .bg-error {
   background: #dc3545;
 }
+
+.alert-primary {
+  background: #99caff;
+  color: #004a99;
+  font-size: 20px;
+}
+
+.alert-secondary {
+  background: #bcc1c6;
+  color: #3d4246;
+  font-size: 20px;
+}
+
+.alert-success {
+  background: #86e29b;
+  color: #145523;
+  font-size: 20px;
+}
+
+.alert-info {
+  background: #7adeee;
+  color: #0c525d;
+  font-size: 20px;
+}
+
+.alert-warning {
+  background: #ffe7a0;
+  color: #a07800;
+  font-size: 20px;
+}
+
+.alert-danger {
+  background: #f3b7bd;
+  color: #921925;
+  font-size: 20px;
+}
+
+.alert-light {
+  background: white;
+  color: #bdc6d0;
+  font-size: 20px;
+}
+
+.alert-dark {
+  background: #7a8793;
+  color: #060708;
+  font-size: 20px;
+}
+
+.alert-muted {
+  background: #bcc1c6;
+  color: #3d4246;
+  font-size: 20px;
+}
+
+.alert-error {
+  background: #f3b7bd;
+  color: #921925;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .visible-sm {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .visible-md {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .visible-lg {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-xl {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 576px) {
+  .hidden-sm {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .hidden-md {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hidden-lg {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-xl {
+    visibility: hidden;
+  }
+}
+
+@media print {
+  .visible-print {
+    visibility: visible !important;
+  }
+  .hidden-print {
+    visibility: hidden !important;
+  }
+}
 /*# sourceMappingURL=framework.css.map */
