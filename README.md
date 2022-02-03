@@ -51,3 +51,15 @@ Background :
 - .bg-info
 - .bg-light
 - .bg-dark
+
+Visibility :
+- .visible-sm
+- .visible-md
+- .visible-lg
+- .visible-xl
+- .hidden-sm
+- .hidden-md
+- .hidden-lg
+- .hidden-xl
+- .visible-print
+- .hidden-print

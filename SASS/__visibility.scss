@@ -1,0 +1,24 @@
+@each $key, $size in $device-size {
+    @media #{$size} {
+        .visible-#{$key} {
+            visibility: visible;
+        }
+    }
+}
+
+@each $key, $size in $device-size {
+    @media #{$size} {
+        .hidden-#{$key} {
+            visibility: hidden;
+        }
+    }
+}
+
+@media print{
+    .visible-print {
+        visibility: visible !important;
+    }
+    .hidden-print {
+        visibility: hidden !important;
+    }
+}
