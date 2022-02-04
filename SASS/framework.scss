@@ -1,7 +1,11 @@
 @import "__variables";
 @import "__grid";
 @import "__buttons";
-@import "__images.scss";
-@import "__colors.scss";
-@import "__alerts.scss";
-@import "__visibility.scss";
+@import "__images";
+@import "__colors";
+@import "__alerts";
+@import "__visibility";
+
+* {
+    user-select: none;
+}
