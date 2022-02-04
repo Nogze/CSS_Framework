@@ -7,4 +7,6 @@ $(document).ready(function() {
     $('a').mousedown(function() {
         return false
     })
+
+    window.addEventListener("hashchange", function() { scrollBy(0, -70) })
 })
