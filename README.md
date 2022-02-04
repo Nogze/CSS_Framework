@@ -1,4 +1,4 @@
-The goal of this project is to create a CSS framework inspired by Boostrap
+The goal of this project is to create a CSS framework inspired by Boostrap.
 
 Available features :
 
@@ -52,6 +52,15 @@ Background :
 - .bg-light
 - .bg-dark
 
+Alert :
+- .alert-primary
+- .alert-secondary
+- .alert-success
+- .alert-danger
+- .alert-warning
+- .alert-light
+- .alert-info
+
 Visibility :
 - .visible
 - .visible-sm
@@ -65,3 +74,12 @@ Visibility :
 - .hidden-xl
 - .visible-print
 - .hidden-print
+
+Navbar :
+- .navbar
+- .navbar-logo
+- .nav-list
+- .nav-item
+- .dropdown
+- .dropdown-btn
+- .dropdown-menu

@@ -7,293 +7,332 @@
     <title>SASS</title>
     <link href="SASS/framework.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/alerts.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/misc.js" defer></script>
 </head>
 
 <body>
-    <h1 class="text-center">Framework CSS</h1>
-    <section>
-        <h2 class="text-center">Containers</h2>
-        <div style="border: black solid 1px" class="container text-center">Container</div>
-        <div style="background-color: black; color: white" class="container-fluid text-center">Container fluid</div>
-    </section>
-    <section>
-        <h2 class="text-center">Grid</h2>
-        <section>
-            <h3 class="text-center">Regular columns</h3>
-            <div style="background: #e8f5e9" class="text-center col-12">Col 12</div>
-            <div style="background:#cde9cf" class="text-center col-11">Col 11</div>
-            <div style="background:#b4deb7" class="text-center col-10">Col 10</div>
-            <div style="background: #9dd4a1" class="text-center col-9">Col 9</div>
-            <div style="background: #88ca8d" class="text-center col-8">Col 8</div>
-            <div style="background: #75c17b" class="text-center col-7">Col 7</div>
-            <div style="background: #63b96a" class="text-center col-6">Col 6</div>
-            <div style="background: #53b15b" class="text-center col-5">Col 5</div>
-            <div style="background: #4aa452" class="text-center col-4">Col 4</div>
-            <div style="background: #44964b" class="text-center col-3">Col 3</div>
-            <div style="background: #3e8a45" class="text-center col-2">Col 2</div>
-            <div style="background: #397e3f" class="text-center col-1">Col 1</div>
-        </section>
-        <section>
-            <h3 class="text-center">Small columns</h3>
-            <div style="background: #f5e8e9" class="text-center col-sm-12">Col 12</div>
-            <div style="background:#e9cdcf" class="text-center col-sm-11">Col 11</div>
-            <div style="background:#deb4b7" class="text-center col-sm-10">Col 10</div>
-            <div style="background: #d49da1" class="text-center col-sm-9">Col 9</div>
-            <div style="background: #ca888d" class="text-center col-sm-8">Col 8</div>
-            <div style="background: #c1757b" class="text-center col-sm-7">Col 7</div>
-            <div style="background: #b9636a" class="text-center col-sm-6">Col 6</div>
-            <div style="background: #b1535b" class="text-center col-sm-5">Col 5</div>
-            <div style="background: #a44a52" class="text-center col-sm-4">Col 4</div>
-            <div style="background: #96444b" class="text-center col-sm-3">Col 3</div>
-            <div style="background: #8a3e45" class="text-center col-sm-2">Col 2</div>
-            <div style="background: #7e393f" class="text-center col-sm-1">Col 1</div>
-        </section>
-        <section>
-            <h3 class="text-center">Medium columns</h3>
-            <div style="background: #e8e8f5" class="text-center col-md-12">Col 12</div>
-            <div style="background:#cdcde9" class="text-center col-md-11">Col 11</div>
-            <div style="background:#b4b4de" class="text-center col-md-10">Col 10</div>
-            <div style="background: #9d9dd4" class="text-center col-md-9">Col 9</div>
-            <div style="background: #8888ca" class="text-center col-md-8">Col 8</div>
-            <div style="background: #7575c1" class="text-center col-md-7">Col 7</div>
-            <div style="background: #6363b9" class="text-center col-md-6">Col 6</div>
-            <div style="background: #5353b1" class="text-center col-md-5">Col 5</div>
-            <div style="background: #4a4aa4" class="text-center col-md-4">Col 4</div>
-            <div style="background: #444496" class="text-center col-md-3">Col 3</div>
-            <div style="background: #3e3e8a" class="text-center col-md-2">Col 2</div>
-            <div style="background: #39397e" class="text-center col-md-1">Col 1</div>
-        </section>
-        <section>
-            <h3 class="text-center">Large columns</h3>
-            <div style="background: #f5f2e8" class="text-center col-lg-12">Col 12</div>
-            <div style="background:#e9e2cd" class="text-center col-lg-11">Col 11</div>
-            <div style="background:#ded3b4" class="text-center col-lg-10">Col 10</div>
-            <div style="background: #d4c59d" class="text-center col-lg-9">Col 9</div>
-            <div style="background: #cab888" class="text-center col-lg-8">Col 8</div>
-            <div style="background: #c1ac75" class="text-center col-lg-7">Col 7</div>
-            <div style="background: #b9a163" class="text-center col-lg-6">Col 6</div>
-            <div style="background: #b19753" class="text-center col-lg-5">Col 5</div>
-            <div style="background: #a48b4a" class="text-center col-lg-4">Col 4</div>
-            <div style="background: #967f44" class="text-center col-lg-3">Col 3</div>
-            <div style="background: #8a743e" class="text-center col-lg-2">Col 2</div>
-            <div style="background: #7e6a39" class="text-center col-lg-1">Col 1</div>
-        </section>
-        <section>
-            <h3 class="text-center">Extra large columns</h3>
-            <div style="background: #e8f5f5" class="text-center col-xl-12">Col 12</div>
-            <div style="background:#cde9e9" class="text-center col-xl-11">Col 11</div>
-            <div style="background:#b4dede" class="text-center col-xl-10">Col 10</div>
-            <div style="background: #9dd4d4" class="text-center col-xl-9">Col 9</div>
-            <div style="background: #88caca" class="text-center col-xl-8">Col 8</div>
-            <div style="background: #75c1c1" class="text-center col-xl-7">Col 7</div>
-            <div style="background: #63b9b9" class="text-center col-xl-6">Col 6</div>
-            <div style="background: #53b1b1" class="text-center col-xl-5">Col 5</div>
-            <div style="background: #4aa4a4" class="text-center col-xl-4">Col 4</div>
-            <div style="background: #449696" class="text-center col-xl-3">Col 3</div>
-            <div style="background: #3e8a8a" class="text-center col-xl-2">Col 2</div>
-            <div style="background: #397e7e" class="text-center col-xl-1">Col 1</div>
-        </section>
-        <section>
-            <h3 class="text-center">Rows</h3>
+    <header style="height: 60px">
+        <nav style="position: fixed; z-index: 1000" class="navbar container-fluid">
             <div class="row">
-                <div style="background: #f5f5f5" class="text-center col-12">Col 12</div>
+                <a href="#"><img class="navbar-logo img-responsive img-rounded" src="images/logo.png"></a>
+            </div>
+            <div class="container-fluid">
+                <ul class="nav-list">
+                    <li class="dropdown nav-item">
+                    <button href="#grid" class="dropdown-btn">Grid</button>
+                        <div class="dropdown-menu">
+                            <a href="#regular-columns">Regular columns</a>
+                            <a href="#small-columns">Small columns</a>
+                            <a href="#medium-columns">Medium columns</a>
+                            <a href="#large-columns">Large columns</a>
+                            <a href="#xl-columns">Extra large columns</a>
+                            <a href="#rows">Rows</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#buttons">Buttons</a></li>
+                    <li class="nav-item"><a href="#images">Images</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
 
-                <div style="background:#e1e1e1" class="text-center col-11">Col 11</div>
-                <div style="background:#cfcfcf" class="text-center col-1">Col 1</div>
+        <section>
+            <h2 class="text-center">Containers</h2>
+            <div style="border: black solid 1px" class="container text-center">Container</div>
+            <div style="background-color: black; color: white" class="container-fluid text-center">Container fluid</div>
+        </section>
+        <section>
+            <h2 id="grid" class="text-center">Grid</h2>
+            <section>
+                <h3 id="regular-columns" class="text-center">Regular columns</h3>
+                <div style="background: #e8f5e9" class="text-center col-12">Col 12</div>
+                <div style="background:#cde9cf" class="text-center col-11">Col 11</div>
+                <div style="background:#b4deb7" class="text-center col-10">Col 10</div>
+                <div style="background: #9dd4a1" class="text-center col-9">Col 9</div>
+                <div style="background: #88ca8d" class="text-center col-8">Col 8</div>
+                <div style="background: #75c17b" class="text-center col-7">Col 7</div>
+                <div style="background: #63b96a" class="text-center col-6">Col 6</div>
+                <div style="background: #53b15b" class="text-center col-5">Col 5</div>
+                <div style="background: #4aa452" class="text-center col-4">Col 4</div>
+                <div style="background: #44964b" class="text-center col-3">Col 3</div>
+                <div style="background: #3e8a45" class="text-center col-2">Col 2</div>
+                <div style="background: #397e3f" class="text-center col-1">Col 1</div>
+            </section>
+            <section>
+                <h3 id="small-columns" class="text-center">Small columns</h3>
+                <div style="background: #f5e8e9" class="text-center col-sm-12">Col 12</div>
+                <div style="background:#e9cdcf" class="text-center col-sm-11">Col 11</div>
+                <div style="background:#deb4b7" class="text-center col-sm-10">Col 10</div>
+                <div style="background: #d49da1" class="text-center col-sm-9">Col 9</div>
+                <div style="background: #ca888d" class="text-center col-sm-8">Col 8</div>
+                <div style="background: #c1757b" class="text-center col-sm-7">Col 7</div>
+                <div style="background: #b9636a" class="text-center col-sm-6">Col 6</div>
+                <div style="background: #b1535b" class="text-center col-sm-5">Col 5</div>
+                <div style="background: #a44a52" class="text-center col-sm-4">Col 4</div>
+                <div style="background: #96444b" class="text-center col-sm-3">Col 3</div>
+                <div style="background: #8a3e45" class="text-center col-sm-2">Col 2</div>
+                <div style="background: #7e393f" class="text-center col-sm-1">Col 1</div>
+            </section>
+            <section>
+                <h3 id="medium-columns" class="text-center">Medium columns</h3>
+                <div style="background: #e8e8f5" class="text-center col-md-12">Col 12</div>
+                <div style="background:#cdcde9" class="text-center col-md-11">Col 11</div>
+                <div style="background:#b4b4de" class="text-center col-md-10">Col 10</div>
+                <div style="background: #9d9dd4" class="text-center col-md-9">Col 9</div>
+                <div style="background: #8888ca" class="text-center col-md-8">Col 8</div>
+                <div style="background: #7575c1" class="text-center col-md-7">Col 7</div>
+                <div style="background: #6363b9" class="text-center col-md-6">Col 6</div>
+                <div style="background: #5353b1" class="text-center col-md-5">Col 5</div>
+                <div style="background: #4a4aa4" class="text-center col-md-4">Col 4</div>
+                <div style="background: #444496" class="text-center col-md-3">Col 3</div>
+                <div style="background: #3e3e8a" class="text-center col-md-2">Col 2</div>
+                <div style="background: #39397e" class="text-center col-md-1">Col 1</div>
+            </section>
+            <section>
+                <h3 id="large-columns" class="text-center">Large columns</h3>
+                <div style="background: #f5f2e8" class="text-center col-lg-12">Col 12</div>
+                <div style="background:#e9e2cd" class="text-center col-lg-11">Col 11</div>
+                <div style="background:#ded3b4" class="text-center col-lg-10">Col 10</div>
+                <div style="background: #d4c59d" class="text-center col-lg-9">Col 9</div>
+                <div style="background: #cab888" class="text-center col-lg-8">Col 8</div>
+                <div style="background: #c1ac75" class="text-center col-lg-7">Col 7</div>
+                <div style="background: #b9a163" class="text-center col-lg-6">Col 6</div>
+                <div style="background: #b19753" class="text-center col-lg-5">Col 5</div>
+                <div style="background: #a48b4a" class="text-center col-lg-4">Col 4</div>
+                <div style="background: #967f44" class="text-center col-lg-3">Col 3</div>
+                <div style="background: #8a743e" class="text-center col-lg-2">Col 2</div>
+                <div style="background: #7e6a39" class="text-center col-lg-1">Col 1</div>
+            </section>
+            <section>
+                <h3 id="xl-columns" class="text-center">Extra large columns</h3>
+                <div style="background: #e8f5f5" class="text-center col-xl-12">Col 12</div>
+                <div style="background:#cde9e9" class="text-center col-xl-11">Col 11</div>
+                <div style="background:#b4dede" class="text-center col-xl-10">Col 10</div>
+                <div style="background: #9dd4d4" class="text-center col-xl-9">Col 9</div>
+                <div style="background: #88caca" class="text-center col-xl-8">Col 8</div>
+                <div style="background: #75c1c1" class="text-center col-xl-7">Col 7</div>
+                <div style="background: #63b9b9" class="text-center col-xl-6">Col 6</div>
+                <div style="background: #53b1b1" class="text-center col-xl-5">Col 5</div>
+                <div style="background: #4aa4a4" class="text-center col-xl-4">Col 4</div>
+                <div style="background: #449696" class="text-center col-xl-3">Col 3</div>
+                <div style="background: #3e8a8a" class="text-center col-xl-2">Col 2</div>
+                <div style="background: #397e7e" class="text-center col-xl-1">Col 1</div>
+            </section>
+            <section>
+                <h3 id="rows" class="text-center">Rows</h3>
+                <div class="row">
+                    <div style="background: #f5f5f5" class="text-center col-12">Col 12</div>
 
-                <div style="background:#cfcfcf" class="text-center col-10">Col 10</div>
-                <div style="background:#bebebe" class="text-center col-2">Col 2</div>
+                    <div style="background:#e1e1e1" class="text-center col-11">Col 11</div>
+                    <div style="background:#cfcfcf" class="text-center col-1">Col 1</div>
 
-                <div style="background: #bebebe" class="text-center col-9">Col 9</div>
-                <div style="background:#aeaeae" class="text-center col-3">Col 3</div>
+                    <div style="background:#cfcfcf" class="text-center col-10">Col 10</div>
+                    <div style="background:#bebebe" class="text-center col-2">Col 2</div>
 
-                <div style="background: #aeaeae" class="text-center col-8">Col 8</div>
-                <div style="background:#a0a0a0" class="text-center col-4">Col 4</div>
+                    <div style="background: #bebebe" class="text-center col-9">Col 9</div>
+                    <div style="background:#aeaeae" class="text-center col-3">Col 3</div>
 
-                <div style="background: #a0a0a0" class="text-center col-7">Col 7</div>
-                <div style="background:#939393" class="text-center col-5">Col 5</div>
+                    <div style="background: #aeaeae" class="text-center col-8">Col 8</div>
+                    <div style="background:#a0a0a0" class="text-center col-4">Col 4</div>
 
-                <div style="background: #939393" class="text-center col-6">Col 6</div>
-                <div style="background:#878787" class="text-center col-6">Col 6</div>
+                    <div style="background: #a0a0a0" class="text-center col-7">Col 7</div>
+                    <div style="background:#939393" class="text-center col-5">Col 5</div>
+
+                    <div style="background: #939393" class="text-center col-6">Col 6</div>
+                    <div style="background:#878787" class="text-center col-6">Col 6</div>
+                </div>
+            </section>
+        </section>
+        <section>
+            <h2 id="buttons" class="text-center">Buttons</h2>
+            <div class="row" style="justify-content: space-around;">
+                <div class="text-center col-2">
+                    <h3>Primary</h3>
+                    <button class="btn btn-primary btn-small">Small</button>
+                    <button class="btn btn-primary">Regular</button>
+                    <button class="btn btn-primary btn-large">Large</button>
+                </div>
+                <div class="text-center col-2">
+                    <h3>Secondary</h3>
+                    <button class="btn btn-secondary btn-small">Small</button>
+                    <button class="btn btn-secondary">Regular</button>
+                    <button class="btn btn-secondary btn-large">Large</button>
+                </div>
+                <div class="text-center col-2">
+                    <h3>Success</h3>
+                    <button class="btn btn-success btn-small">Small</button>
+                    <button class="btn btn-success">Regular</button>
+                    <button class="btn btn-success btn-large">Large</button>
+                </div>
+                <div class="text-center col-2">
+                    <h3>Danger</h3>
+                    <button class="btn btn-danger btn-small">Small</button>
+                    <button class="btn btn-danger">Regular</button>
+                    <button class="btn btn-danger btn-large">Large</button>
+                </div>
+                <div class="text-center col-2">
+                    <h3>Warning</h3>
+                    <button class="btn btn-warning btn-small">Small</button>
+                    <button class="btn btn-warning">Regular</button>
+                    <button class="btn btn-warning btn-large">Large</button>
+                </div>
+                <div class="text-center col-3">
+                    <h3>Info</h3>
+                    <button class="btn btn-info btn-small">Small</button>
+                    <button class="btn btn-info">Regular</button>
+                    <button class="btn btn-info btn-large">Large</button>
+                </div>
+                <div class="text-center col-3">
+                    <h3>Light</h3>
+                    <button class="btn btn-light btn-small">Small</button>
+                    <button class="btn btn-light">Regular</button>
+                    <button class="btn btn-light btn-large">Large</button>
+                </div>
+                <div class="text-center col-3">
+                    <h3>Dark</h3>
+                    <button class="btn btn-dark btn-small">Small</button>
+                    <button class="btn btn-dark">Regular</button>
+                    <button class="btn btn-dark btn-large">Large</button>
+                </div>
+                <div class="text-center col-3">
+                    <h3>Disabled</h3>
+                    <button disabled class="btn btn-success btn-small">Small</button>
+                    <button disabled class="btn btn-success">Regular</button>
+                    <button disabled class="btn btn-success btn-large">Large</button>
+                </div>
             </div>
         </section>
-    </section>
-    <section>
-        <h2 class="text-center">Buttons</h2>
-        <div class="row" style="justify-content: space-around;">
-            <div class="text-center col-2">
-                <h3>Primary</h3>
-                <button class="btn btn-primary btn-small">Small</button>
-                <button class="btn btn-primary">Regular</button>
-                <button class="btn btn-primary btn-large">Large</button>
+        <section>
+            <h2 id="images" class="text-center">Images</h2>
+            <div class="row">
+                <div class="text-center col-3">
+                    <h3>Responsive</h3>
+                    <img src="images/Singed_9.jpg" class="img-responsive">
+                </div>
+                <div class="text-center col-3">
+                    <h3>Thumbnail</h3>
+                    <img src="images/Singed_9.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="text-center col-3">
+                    <h3>Rounded</h3>
+                    <img src="images/Singed_9.jpg" class="img-responsive img-rounded">
+                </div>
+                <div class="text-center col-3">
+                    <h3>Circle</h3>
+                    <img src="images/Singed_9.jpg" class="img-responsive img-circle">
+                </div>
+                <div class="text-center col-12">
+                    <h3>Not responsive</h3>
+                    <img src="images/Singed_9.jpg">
+                </div>
             </div>
-            <div class="text-center col-2">
-                <h3>Secondary</h3>
-                <button class="btn btn-secondary btn-small">Small</button>
-                <button class="btn btn-secondary">Regular</button>
-                <button class="btn btn-secondary btn-large">Large</button>
+        </section>
+        <section>
+            <h2 class="text-center">Text</h2>
+            <div class="row">
+                <p class="col-3 text-center text-primary">Primary text</p>
+                <p class="col-3 text-center text-muted">Muted / secondary text</p>
+                <p class="col-3 text-center text-success">Success text</p>
+                <p class="col-3 text-center text-error">Error text</p>
+                <p class="col-3 text-center text-warning">Warning text</p>
+                <p class="col-3 text-center text-info">Info text</p>
+                <p class="col-3 text-center text-light">Light text</p>
+                <p class="col-3 text-center text-dark">Dark text</p>
             </div>
-            <div class="text-center col-2">
-                <h3>Success</h3>
-                <button class="btn btn-success btn-small">Small</button>
-                <button class="btn btn-success">Regular</button>
-                <button class="btn btn-success btn-large">Large</button>
+        </section>
+        <section>
+            <h2 class="text-center">Background</h2>
+            <div class="row">
+                <div style="color: white" class="text-center col-12 bg-primary">Primary background</div>
+                <div style="color: white" class="text-center col-12 bg-muted">Muted background</div>
+                <div style="color: white" class="text-center col-12 bg-success">Success background</div>
+                <div style="color: white" class="text-center col-12 bg-error">Error background</div>
+                <div style="color: white" class="text-center col-12 bg-warning">Warning background</div>
+                <div style="color: white" class="text-center col-12 bg-info">Info background</div>
+                <div style="color: black" class="text-center col-12 bg-light">Light background</div>
+                <div style="color: white" class="text-center col-12 bg-dark">Dark background</div>
             </div>
-            <div class="text-center col-2">
-                <h3>Danger</h3>
-                <button class="btn btn-danger btn-small">Small</button>
-                <button class="btn btn-danger">Regular</button>
-                <button class="btn btn-danger btn-large">Large</button>
+        </section>
+        <section>
+            <h2 class="text-center">Visibility</h2>
+            <div class="row">
+                <div class="text-center col-3 visible-sm">
+                    <h3>Visible small</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 visible-md">
+                    <h3>Visible medium</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 visible-lg">
+                    <h3>Visible large</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 visible-xl">
+                    <h3>Visible extra large</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 hidden-sm">
+                    <h3>Hidden small</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 hidden-md">
+                    <h3>Hidden medium</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 hidden-lg">
+                    <h3>Hidden large</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="text-center col-3 hidden-xl">
+                    <h3>Hidden extra large</h3>
+                    <img class="img-responsive"
+                        src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
+                </div>
+                <div class="col-3"></div>
+                <div class="text-center col-3">
+                    <h3>Visible print</h3>
+                    <img class="img-responsive img-circle visible-print" src="images/Singed3.png">
+                </div>
+                <div class="text-center col-3">
+                    <h3>Hidden print</h3>
+                    <img class="img-responsive img-circle hidden-print" src="images/Singed3.png">
+                </div>
+                <div class="col-3"></div>
             </div>
-            <div class="text-center col-2">
-                <h3>Warning</h3>
-                <button class="btn btn-warning btn-small">Small</button>
-                <button class="btn btn-warning">Regular</button>
-                <button class="btn btn-warning btn-large">Large</button>
+        </section>
+        <section>
+            <h2 class="text-center">Alerts</h2>
+            <div class="container">
+                <div style="justify-content: space-evenly" class="row">
+                    <button class="col-1 btn btn-primary">Primary</button>
+                    <button class="col-1 btn btn-secondary">Secondary</button>
+                    <button class="col-1 btn btn-success">Success</button>
+                    <button class="col-1 btn btn-danger">Danger</button>
+                    <button class="col-1 btn btn-warning">Warning</button>
+                    <button class="col-1 btn btn-info">Info</button>
+                    <button class="col-1 btn btn-light">Light</button>
+                    <button class="col-1 btn btn-dark">Dark</button>
+                </div>
+                <div id="alert-container"
+                    style="padding: 10px;border-radius:10px; border: gray solid 1px; height: 200px; overflow: auto scroll"
+                    class="container">
+                </div>
             </div>
-            <div class="text-center col-3">
-                <h3>Info</h3>
-                <button class="btn btn-info btn-small">Small</button>
-                <button class="btn btn-info">Regular</button>
-                <button class="btn btn-info btn-large">Large</button>
-            </div>
-            <div class="text-center col-3">
-                <h3>Light</h3>
-                <button class="btn btn-light btn-small">Small</button>
-                <button class="btn btn-light">Regular</button>
-                <button class="btn btn-light btn-large">Large</button>
-            </div>
-            <div class="text-center col-3">
-                <h3>Dark</h3>
-                <button class="btn btn-dark btn-small">Small</button>
-                <button class="btn btn-dark">Regular</button>
-                <button class="btn btn-dark btn-large">Large</button>
-            </div>
-            <div class="text-center col-3">
-                <h3>Disabled</h3>
-                <button disabled class="btn btn-success btn-small">Small</button>
-                <button disabled class="btn btn-success">Regular</button>
-                <button disabled class="btn btn-success btn-large">Large</button>
-            </div>
-        </div>
-    </section>
-    <section>
-        <h2 class="text-center">Images</h2>
-        <div class="row">
-            <div class="text-center col-3">
-                <h3>Responsive</h3>
-                <img src="images/Singed_9.jpg" class="img-responsive">
-            </div>
-            <div class="text-center col-3">
-                <h3>Thumbnail</h3>
-                <img src="images/Singed_9.jpg" class="img-responsive img-thumbnail">
-            </div>
-            <div class="text-center col-3">
-                <h3>Rounded</h3>
-                <img src="images/Singed_9.jpg" class="img-responsive img-rounded">
-            </div>
-            <div class="text-center col-3">
-                <h3>Circle</h3>
-                <img src="images/Singed_9.jpg" class="img-responsive img-circle">
-            </div>
-            <div class="text-center col-12">
-                <h3>Not responsive</h3>
-                <img src="images/Singed_9.jpg">
-            </div>
-        </div>
-    </section>
-    <section>
-        <h2 class="text-center">Text</h2>
-        <div class="row">
-            <p class="col-3 text-center text-primary">Primary text</p>
-            <p class="col-3 text-center text-muted">Muted / secondary text</p>
-            <p class="col-3 text-center text-success">Success text</p>
-            <p class="col-3 text-center text-error">Error text</p>
-            <p class="col-3 text-center text-warning">Warning text</p>
-            <p class="col-3 text-center text-info">Info text</p>
-            <p class="col-3 text-center text-light">Light text</p>
-            <p class="col-3 text-center text-dark">Dark text</p>
-        </div>
-    </section>
-    <section>
-        <h2 class="text-center">Background</h2>
-        <div class="row">
-            <div style="color: white" class="text-center col-12 bg-primary">Primary background</div>
-            <div style="color: white" class="text-center col-12 bg-muted">Muted background</div>
-            <div style="color: white" class="text-center col-12 bg-success">Success background</div>
-            <div style="color: white" class="text-center col-12 bg-error">Error background</div>
-            <div style="color: white" class="text-center col-12 bg-warning">Warning background</div>
-            <div style="color: white" class="text-center col-12 bg-info">Info background</div>
-            <div style="color: black" class="text-center col-12 bg-light">Light background</div>
-            <div style="color: white" class="text-center col-12 bg-dark">Dark background</div>
-        </div>
-    </section>
-    <section>
-        <h2 class="text-center">Visibility</h2>
-        <div class="row">
-            <div class="text-center col-3 visible-sm">
-                <h3>Visible small</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 visible-md">
-                <h3>Visible medium</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 visible-lg">
-                <h3>Visible large</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 visible-xl">
-                <h3>Visible extra large</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 hidden-sm">
-                <h3>Hidden small</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 hidden-md">
-                <h3>Hidden medium</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 hidden-lg">
-                <h3>Hidden large</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="text-center col-3 hidden-xl">
-                <h3>Hidden extra large</h3>
-                <img class="img-responsive" src="images/498-4989706_singed-png-snow-day-singed-png-transparent-png.png">
-            </div>
-            <div class="col-3"></div>
-            <div class="text-center col-3">
-                <h3>Visible print</h3>
-                <img class="img-responsive img-circle visible-print" src="images/Singed3.png">
-            </div>
-            <div class="text-center col-3">
-                <h3>Hidden print</h3>
-                <img class="img-responsive img-circle hidden-print" src="images/Singed3.png">
-            </div>
-            <div class="col-3"></div>
-        </div>
-    </section>
-    <section>
-        <h2 class="text-center">Alerts</h2>
-        <div class="container">
-            <div style="justify-content: space-evenly" class="row">
-                <button class="col-1 btn btn-primary">Primary</button>
-                <button class="col-1 btn btn-secondary">Secondary</button>
-                <button class="col-1 btn btn-success">Success</button>
-                <button class="col-1 btn btn-danger">Danger</button>
-                <button class="col-1 btn btn-warning">Warning</button>
-                <button class="col-1 btn btn-info">Info</button>
-                <button class="col-1 btn btn-light">Light</button>
-                <button class="col-1 btn btn-dark">Dark</button>
-            </div>
-            <div id="alert-container" style="padding: 10px;border-radius:10px; border: gray solid 1px; height: 200px; overflow: auto scroll" class="container">
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 
 </html>

@@ -10,7 +10,7 @@ function displayAlert(btnClass) {
     $('#alert-container').append("<div style='position:relative' class='alert close alert"+subclass.substring(3)+"'><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></div>")
     setTimeout(function() {
         $('#alert-container').children()[0].remove()
-    }, 10000)
+    }, 5000)
 }
 
 function closeAlert(element) {
