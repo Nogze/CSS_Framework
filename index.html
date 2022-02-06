@@ -12,6 +12,7 @@
     <script src="js/alerts.js" defer></script>
     <script src="js/navbar.js" defer></script>
     <script src="js/misc.js" defer></script>
+    <script src="js/modal.js" defer></script>
 </head>
 
 <body>
@@ -39,6 +40,7 @@
                     <li class="nav-item"><a href="#background">Background</a></li>
                     <li class="nav-item"><a href="#visibility">Visibility</a></li>
                     <li class="nav-item"><a href="#alerts">Alerts</a></li>
+                    <li class="nav-item"><a href="#modal-jumppoint">Modal</a></li>
                 </ul>
             </div>
         </nav>
@@ -320,7 +322,7 @@
         <section>
             <h2 id="alerts" class="text-center">Alerts</h2>
             <div class="container">
-                <div style="justify-content: space-evenly" class="row">
+                <div id="alerts-example" style="justify-content: space-evenly" class="row">
                     <button class="col-1 btn btn-primary">Primary</button>
                     <button class="col-1 btn btn-secondary">Secondary</button>
                     <button class="col-1 btn btn-success">Success</button>
@@ -333,6 +335,25 @@
                 <div id="alert-container"
                     style="padding: 10px;border-radius:10px; border: gray solid 1px; height: 200px; overflow: auto scroll"
                     class="container">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="modal-jumppoint" class="text-center">Modal</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <button id="btn-modal" class="col-4 btn btn-success">Modal</button>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+            <div id="modal">
+                <div class="modal-container">
+                    <h2 class="text-center">Lorem Ipsum</h2>
+                    <p style="text-justify:auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nisi ducimus quam quas asperiores dolor nihil provident sequi quibusdam. Ipsam fugiat consequatur magnam tempora fugit eius, velit nulla vitae quis?.</p>
+                    <div class="row">
+                        <img class="col-12 img-circle img-responsive" src="images/singed4.png">
+                    </div>
                 </div>
             </div>
         </section>

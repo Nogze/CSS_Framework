@@ -17,7 +17,7 @@ function closeAlert(element) {
     $(element).remove()
 }
 
-$('.btn').click(function(){
+$('#alerts-example .btn').click(function(){
     displayAlert($(this).attr("class"))
 })
 

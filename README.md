@@ -52,7 +52,7 @@ Background :
 - .bg-light
 - .bg-dark
 
-Alert :
+Alerts :
 - .alert-primary
 - .alert-secondary
 - .alert-success
@@ -83,3 +83,8 @@ Navbar :
 - .dropdown
 - .dropdown-btn
 - .dropdown-menu
+
+Modal :
+- #modal
+- #btn-modal
+- .modal-container
